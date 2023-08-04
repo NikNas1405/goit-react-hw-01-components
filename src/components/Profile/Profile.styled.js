@@ -39,8 +39,14 @@ export const Stats = styled.ul`
 
 export const StatsList = styled.li`
   list-style: none;
+  padding: 5%;
   font-size: 14px;
   display: block;
+  height: 100%;
+
+  &:not(:last-child) {
+    border-right: 1px solid #000000;
+  }
 `;
 
 export const Label = styled.span`
