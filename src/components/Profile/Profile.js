@@ -49,3 +49,9 @@ Profile.propTypes = {
     likes: PropTypes.number.isRequired,
   }).isRequired,
 };
+
+// Объект с определённой структурой
+// optionalObjectWithShape: PropTypes.shape({
+//   color: PropTypes.string,
+//   fontSize: PropTypes.number
+// }),

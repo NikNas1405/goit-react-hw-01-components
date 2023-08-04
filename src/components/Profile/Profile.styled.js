@@ -15,10 +15,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Images = styled.img`
-  display: block;
-  /* max-width: 100%;
-  height: auto; */
-
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -34,13 +30,11 @@ export const Text = styled.p`
 
 export const Stats = styled.ul`
   display: flex;
-  padding: 0;
   align-items: center;
   justify-content: space-evenly;
   height: 80px;
   border-top: 2px solid #000000;
   background-color: #80808050;
-  margin: 0;
 `;
 
 export const StatsList = styled.li`
@@ -48,7 +42,6 @@ export const StatsList = styled.li`
   font-size: 14px;
   display: block;
 `;
-
 
 export const Label = styled.span`
   font-size: 15px;

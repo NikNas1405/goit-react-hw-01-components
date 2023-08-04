@@ -12,7 +12,7 @@ export const Wrapper = styled.section`
   box-shadow: 1px 1px 8px 0px #000000;
   border-radius: 8px;
   overflow: hidden;
-  padding-top: 100px;
+  padding-top: 50px;
 `;
 
 export const Title = styled.h2`
@@ -25,8 +25,6 @@ export const Title = styled.h2`
 export const StatList = styled.ul`
   display: flex;
   justify-content: center;
-  margin: 0;
-  padding: 0;
 `;
 
 export const StatListItem = styled.li`

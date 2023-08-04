@@ -1,11 +1,16 @@
+import { GlobalStyle } from './GlobalStyle';
+
 import { Profile } from './Profile/Profile';
 import user from './Profile/user.json';
 
 import { StatisticsCard } from './Statistics/Statistics';
 import data from './Statistics/data.json';
 
-// import { FriendList } from './Friend/FriendList/FriendList';
-// import friends from './Friend/friends.json';
+import { FriendList } from './Friend/FriendList/FriendList';
+import friends from './Friend/friends.json';
+
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transactions from './TransactionHistory/transactions.json';
 
 export const App = () => {
   return (
@@ -28,9 +33,9 @@ export const App = () => {
         stats={user.stats}
       />
       <StatisticsCard title="Upload stats" stats={data} />
-      {/* <FriendList friends={friends} /> */}
-
-      {/* <TransactionHistory transactionsItems={transactions} />  */}
+      <FriendList friends={friends} />
+      <GlobalStyle />
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
