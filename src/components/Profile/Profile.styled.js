@@ -15,9 +15,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Images = styled.img`
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  border: 1px solid black;
   margin: auto;
 `;
 
