@@ -7,5 +7,7 @@ export const FriendsList = styled.ul`
   gap: 20px;
   justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 10px;
+  border-radius: 2%;
+  box-shadow: 1px 1px 8px 0px #000000;
 `;
