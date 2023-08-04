@@ -20,8 +20,6 @@ export const Thead = styled.thead`
 export const Tr = styled.tr`
   :hover {
     background-color: rgb(115, 120, 175);
-    -webkit-box-shadow: 0 6px 6px -6px #0e1119;
-    -moz-box-shadow: 0 6px 6px -6px #0e1119;
     box-shadow: 0 6px 6px -6px #0e1119;
     color: #ffffff;
     text-shadow: 1px 1px 8px 0px #000000;
@@ -30,6 +28,15 @@ export const Tr = styled.tr`
 
 export const Th = styled.th`
   text-align: center;
+  border: 1px solid #0e1119;
+
+  &:first-child {
+    border-top-left-radius: 5px;
+  }
+
+  &:last-child {
+    border-top-right-radius: 5px;
+  }
 `;
 
 export const Tbody = styled.tbody`
@@ -40,4 +47,14 @@ export const Td = styled.td`
   text-align: center;
   width: 100%;
   height: 20px;
+
+  border: 1px solid #0e1119;
+
+  /* &:first-child {
+    border-bottom-left-radius: 5px;
+  } */
+
+  /* &:nth-last-child(-n+1) {
+    border-bottom-right-radius: 5px;
+  } */
 `;
