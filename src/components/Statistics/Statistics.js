@@ -10,8 +10,7 @@ import {
 export const StatisticsCard = ({ stats, title }) => {
   return (
     <Wrapper className="statistics">
-      <Title className="title">{title}</Title>
-
+      {title && <Title className="title">{title}</Title>}
       <StatList className="stat-list">
         {stats.map(({ id, label, percentage }) => {
           return (
